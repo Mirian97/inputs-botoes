@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(8, 8, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Neuton', serif;
+    max-height: 780px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    margin: 60px 0 54px;
+}
+
+.button {
+    all: unset;
+    font-weight: 400;
+    color: #FFFFFF;
+    min-width: 337px;
+    display: flex;
+    margin: 0 90px 55px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.btn-blue {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    background: #5B86E6;
+    justify-content: center;
+    padding: 7px 0;
+}
+
+.btn-pink {
+    font-size: 22px;
+    background: #E65B7C;
+    justify-content: center;
+    padding: 21px 0;
+}
+
+img {
+    background-color: #FFFFFF;
+    padding: 11px;
+    border-radius: 5px;
+    margin-left: 6px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 39px;
+}
+
+.container span {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
+    font-weight: 400;
+    font-size: 16px;
+    color: #949495;
+    min-width: 337px;
+    padding: 24px 22px;
+    border: 1px solid #D9DCED;
+    border-radius: 5px;
+    margin: 20px 90px;
+}
+
+.input label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-left: 90px;
+}
+
+input:focus {
+    border: 1px solid black;
+}
+
+button:hover {
+    box-shadow: 0px 4px 15px rgba(204, 28, 69, 0.3);
+}
+
+.input input::placeholder {
+    color: black;
+}
+
+.input {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #5B86E6;
+}

@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3e3e3;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    max-width: 610px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container .serif {
+    font-family: 'Rokkitt', serif;
+    margin: 64px 0 15px 89px;
+}
+
+p {
+    color: #161843;
+    margin: 0 89px 52px;
+}
+
+input {
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    padding: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    margin: 0 89px;
+}
+
+.password-next {
+    margin: 16px 90px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-next a {
+    text-decoration: none;
+    color: #046586;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.password-next button {
+    all: unset;
+    display: flex;
+    background: #046586;
+    color: white;
+    border-radius: 5px;
+    padding: 25px 35px;
+    max-width: 157px;
+    align-items: center;
+}
+
+.line-section {
+    width: 430px;
+    height: 0px;
+    border: 1px solid #CAD6E4;
+    margin: 55px 90px 35px;
+}
+
+.color-gray {
+    color: #838A9E;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    margin: 0 90px 60px;
+    justify-content: space-between;
+    cursor: default;
+}
+
+.button button {
+    all: unset;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 11px 0;
+    min-width: 205px;
+}
+
+.color-black {
+    color: black;
+    text-align: center;
+    margin-bottom: 56px;
+    align-items: center;
+}
+
+a {
+    color: #046586
+}
